@@ -8,4 +8,4 @@ This includes scripts for downloading Landsat images from GEE, cutting of imager
 * **4. Remove noisy Images** - There were few black images (completelly black) present in each state. We removed those black images.
 * **5. Crop images** - we cropped each vilaages image (150 x 150 pixels) from centre.
 
-Scripts for all the aboves steps are present in this repo.
+Scripts for all the aboves steps are present in "Image Preprocessing" folder.
