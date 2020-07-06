@@ -53,7 +53,7 @@ for (var i in state_list) {
     // gamma: 1.4,
     // };
   
-    Map.addLayer(state_image.median(), visParams);
+    //Map.addLayer(state_image.median(), visParams);
     
     var bands = ['B3','B2','B1'];    // RGB bands for Landsat 7
     state_image = state_image.select(bands).median();
